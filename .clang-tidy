@@ -1,0 +1,11 @@
+Checks: >-
+  bugprone-*,
+  performance-*,
+  portability-*,
+  readability-*
+WarningsAsErrors: ''
+HeaderFilterRegex: '(^|/)(include|src|test)/.*\\.(h|hh|hpp|cc|cpp|cxx)$'
+FormatStyle: file
+UseColor: true
+ExtraArgs:
+  - '-std=c++20'
